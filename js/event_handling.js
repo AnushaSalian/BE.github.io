@@ -29,7 +29,7 @@ function handleEvents() {
         page2 = true;
 
         textFont("Century Gothic");
-        clear = createButton("Clear Graphs");
+        clear = createButton("Obriši grafik");
         clear.position(400, 150);
 
         magFac.initialise();

@@ -73,7 +73,7 @@ function setup() {
 
     magFac = new DynamicGraph(125, 430, 230, 320, "Apsolutna prenosivost", "ψ", 0, 8, 0, 7.5, System.mag_func);
     //phaseAng = new DynamicGraph(125, 495, 150, 290, "Phase Angle", "n", 0, 2.5, 0, 180, System.phase_func);
-    relTrans = new DynamicGraph(125, 460, 220, 350, "Relative Transmissibility", "ψ", 0, 5, 0, 7.5, System.rel_trans);
+    relTrans = new DynamicGraph(125, 460, 220, 350, "Relativna prenosivost", "ψ", 0, 5, 0, 7.5, System.rel_trans);
 
     k = new NumberInput(620, 150, "Krutost opruge(N/m)", 8000, 999000, 20000, 0.5, true);// -\n => next line
     m = new NumberInput(620, 200, "Masa(kg)", 2, 200, 32, 0.5, true);

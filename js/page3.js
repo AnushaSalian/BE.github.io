@@ -61,7 +61,7 @@ function runPage3() {
     strokeWeight(0)
     fill(0);
     textStyle(NORMAL);
-    text("Vrednost frekv. Odnosa", 405, 255)
+    text("Vrednost frekv. odnosa", 405, 255)
     pop();
 
     clear.mousePressed(clearMe);
